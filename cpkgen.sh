@@ -1,10 +1,5 @@
 #!/bin/bash
-# Use > 1 to consume two arguments per pass in the loop (e.g. each
-# argument has a corresponding value to go with it).
-# Use > 0 to consume one or more arguments per pass in the loop (e.g.
-# some arguments don't have a corresponding value to go with it such
-# as in the --default example).
-# note: if this is set to > 0 the /etc/hosts part is not recognized ( may be a bug )
+
 CREATE=0
 PACKAGE=0
 
@@ -54,7 +49,7 @@ BUNDLE_ID=$(uuidgen | awk -F '-' '{print $1}')
 
 INFO_FILE="plugin_name = \"developr\"\nplugin_bundle_id = \"com.developer.${BUNDLE_ID}\"\nplugin_desc = \"信息描述\"\nplugin_version = \"1.0\"\nplugin_author = \"http://clipber.com\""
 
-MAIN_FILE='function main(text)\n\t-- edit here\nend'
+MAIN_FILE="function main(text)\n\t-- edit here\nreturn text\nend"
 
 if [ $CREATE -eq 1 ]
 then
