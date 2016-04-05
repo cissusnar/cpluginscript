@@ -1,5 +1,7 @@
 #!/bin/bash
 
+CPKGEN_VERSION="1.0"
+
 CREATE=0
 PACKAGE=0
 
@@ -47,7 +49,7 @@ PLUGIN_NAME="${PROJ_NAME}.cplugin"
 
 BUNDLE_ID=$(uuidgen | awk -F '-' '{print $1}')
 
-INFO_FILE="plugin_name = \"developr\"\nplugin_bundle_id = \"com.developer.${BUNDLE_ID}\"\nplugin_desc = \"信息描述\"\nplugin_version = \"1.0\"\nplugin_author = \"http://clipber.com\""
+INFO_FILE="plugin_name = \"developr\"\nplugin_bundle_id = \"com.developer.${BUNDLE_ID}\"\nplugin_desc = \"信息描述\"\nplugin_version = \"1.0\"\nplugin_author = \"http://clipber.com\"\ncpkgen_version = \"${CPKGEN_VERSION}\""
 
 MAIN_FILE="function main(text)\n\t-- edit here\n\treturn text\nend"
 
