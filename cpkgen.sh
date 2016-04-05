@@ -49,7 +49,7 @@ BUNDLE_ID=$(uuidgen | awk -F '-' '{print $1}')
 
 INFO_FILE="plugin_name = \"developr\"\nplugin_bundle_id = \"com.developer.${BUNDLE_ID}\"\nplugin_desc = \"信息描述\"\nplugin_version = \"1.0\"\nplugin_author = \"http://clipber.com\""
 
-MAIN_FILE="function main(text)\n\t-- edit here\nreturn text\nend"
+MAIN_FILE="function main(text)\n\t-- edit here\n\treturn text\nend"
 
 if [ $CREATE -eq 1 ]
 then
