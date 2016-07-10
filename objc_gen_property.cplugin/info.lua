@@ -1,0 +1,6 @@
+plugin_name = "objc生成属性"
+plugin_bundle_id = "com.clipber.F1BC52DA"
+plugin_desc = "根据变量前缀生成objc属性"
+plugin_version = "1.0"
+plugin_author = "http://clipber.com"
+cpkgen_version = "1.0"

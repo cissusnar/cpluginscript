@@ -1,0 +1,6 @@
+plugin_name = "objc自动new"
+plugin_bundle_id = "com.clipber.08EABDF2"
+plugin_desc = "自动生成new语法"
+plugin_version = "1.0"
+plugin_author = "http://clipber.com"
+cpkgen_version = "1.0"
