@@ -1,0 +1,6 @@
+plugin_name = "objc property strong"
+plugin_bundle_id = "com.developer.E598A47C"
+plugin_desc = "信息描述"
+plugin_version = "1.0"
+plugin_author = "http://clipber.com"
+cpkgen_version = "1.0"
