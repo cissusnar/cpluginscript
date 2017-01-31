@@ -1,0 +1,6 @@
+plugin_name = "base64解码"
+plugin_bundle_id = "com.developer.3c15c2b9fca4"
+plugin_desc = "base64解码"
+plugin_version = "1.0"
+plugin_author = "http://clipber.com"
+cpkgen_version = "1.0"
