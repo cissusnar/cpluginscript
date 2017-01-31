@@ -7,5 +7,3 @@ function main(text)
 	return r_str
 end
 
-
-print(main("here"))
