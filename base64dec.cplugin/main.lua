@@ -2,6 +2,8 @@ require 'base64'
 
 function main(text)
 	-- edit here
-	return dec(text)
+	local str = text:gsub(" ", "")
+	str = str:gsub("\n", "")
+	return dec(str)
 end
 
