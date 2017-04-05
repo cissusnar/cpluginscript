@@ -23,7 +23,7 @@ function main(text)
     elseif string.find(pt, ".*view.*") then
         r = "@property (nonatomic, strong) " .. text
     elseif string.find(pt, ".*block.*") then
-        r = "@property (nonatomic, copy, nullability) " .. "<#returnType#> (^" .. text .. ")(<#parameterTypes#>)"
+        r = "@property (nonatomic, copy, nullable) " .. "<#returnType#> (^" .. text .. ")(<#parameterTypes#>)"
     elseif string.find(pt, "^cg.*") then
         r = "@property (nonatomic, assign) " .. text
     elseif string.find(pt, "^bool.*") then
