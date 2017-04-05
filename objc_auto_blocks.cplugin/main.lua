@@ -23,7 +23,7 @@ function main(text)
     elseif string.find(pt, ".*prop.*") then
         r = "@property (nonatomic, copy, nullable) " .. "<#returnType#> (^" .. text .. ")(<#parameterTypes#>);"
     elseif string.find(pt, ".*func.*") then
-        r = "- (void)<#someMethodThatTakesABlock#>:(<#returnType#> (^nullability)(<#parameterTypes#>))<#blockName#>;"
+        r = "- (void)<#someMethodThatTakesABlock#>:(<#returnType#> (^)(<#parameterTypes#>))<#blockName#>;"
     elseif string.find(pt, ".*typedef.*") then
         r = "typedef <#returnType#> (^<#TypeName#>)(<#parameterTypes#>);"
     else
