@@ -1,0 +1,6 @@
+plugin_name = "Google搜索"
+plugin_bundle_id = "com.developer.4989A89A"
+plugin_desc = "使用Google搜索"
+plugin_version = "1.1"
+plugin_author = "http://clipber.com"
+cpkgen_version = "1.0"

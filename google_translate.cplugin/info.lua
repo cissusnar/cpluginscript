@@ -1,0 +1,6 @@
+plugin_name = "Google翻译"
+plugin_bundle_id = "com.developer.0E4343A4"
+plugin_desc = "使用Google翻译字符串"
+plugin_version = "1.0"
+plugin_author = "http://clipber.com"
+cpkgen_version = "1.0"

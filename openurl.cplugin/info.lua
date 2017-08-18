@@ -1,0 +1,6 @@
+plugin_name = "打开URL"
+plugin_bundle_id = "com.developer.EE4681C4"
+plugin_desc = "[URL]schema"
+plugin_version = "1.0"
+plugin_author = "http://clipber.com"
+cpkgen_version = "1.0"
