@@ -19,7 +19,7 @@ end
 
 function main(text)
 	-- edit here
-	local url = "https://www.youdao.com/w/eng/" .. urlencode(text)
+	local url = "http://fanyi.baidu.com/#auto/zh/" .. urlencode(text)
 	local txt = app.openURL(url);
 	return txt
 end
