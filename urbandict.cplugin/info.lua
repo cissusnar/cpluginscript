@@ -1,0 +1,6 @@
+plugin_name = "urbandictionary"
+plugin_bundle_id = "com.developer.E5C1C880"
+plugin_desc = "使用urban字典查询"
+plugin_version = "1.0"
+plugin_author = "http://clipber.com"
+cpkgen_version = "1.0"

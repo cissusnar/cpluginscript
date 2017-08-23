@@ -1,0 +1,6 @@
+plugin_name = "bing搜索"
+plugin_bundle_id = "com.developer.A45625E5"
+plugin_desc = "使用bing搜索"
+plugin_version = "1.0"
+plugin_author = "http://clipber.com"
+cpkgen_version = "1.0"

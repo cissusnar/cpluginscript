@@ -1,0 +1,6 @@
+plugin_name = "易客满查询"
+plugin_bundle_id = "com.developer.28167D82"
+plugin_desc = "查询易客满物流单号"
+plugin_version = "1.0"
+plugin_author = "http://clipber.com"
+cpkgen_version = "1.0"

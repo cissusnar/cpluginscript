@@ -1,0 +1,6 @@
+plugin_name = "有道翻译"
+plugin_bundle_id = "com.developer.E5D10E44"
+plugin_desc = "使用有道翻译"
+plugin_version = "1.0"
+plugin_author = "http://clipber.com"
+cpkgen_version = "1.0"
