@@ -1,0 +1,6 @@
+plugin_name = "iOS地图搜索"
+plugin_bundle_id = "com.developer.03CDD665"
+plugin_desc = "在地图中搜索"
+plugin_version = "1.0"
+plugin_author = "http://clipber.com"
+cpkgen_version = "1.0"

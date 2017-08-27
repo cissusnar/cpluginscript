@@ -1,0 +1,6 @@
+plugin_name = "顺丰快递"
+plugin_bundle_id = "com.developer.152D7A16"
+plugin_desc = "顺丰快递单号跟踪"
+plugin_version = "1.0"
+plugin_author = "http://clipber.com"
+cpkgen_version = "1.0"
