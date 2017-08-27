@@ -1,13 +1,13 @@
 local app = require("app")
 
-function urlencode(str)
-if (str) then
-str = string.gsub (str, "\n", "\r\n")
---str = string.gsub (str, "([^%w ])",
---function (c) return string.format ("%%%02X", string.byte(c)) end)
-str = string.gsub (str, " ", "+")
-end
-return str
+local function urlencode(str)
+
+  --Ensure all newlines are in CRLF form
+  str = string.gsub (str, "\r?\n", "%%0A")
+  --Convert spaces to plus signs
+  str = string.gsub (str, " ", "%%20")
+
+  return str
 end
 
 function main(text)
