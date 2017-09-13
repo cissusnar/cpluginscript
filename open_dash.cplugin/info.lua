@@ -1,0 +1,6 @@
+plugin_name = "Dash搜索"
+plugin_bundle_id = "com.developer.97B954FA"
+plugin_desc = "搜索Dash文档"
+plugin_version = "1.0"
+plugin_author = "http://clipber.com"
+cpkgen_version = "1.0"
