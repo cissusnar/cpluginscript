@@ -1,5 +1,19 @@
 #!/bin/bash
 
+if [ ! -f "$(which uuidgen)" ]
+then
+	echo 'uuidgen is not installed'
+	echo 'exp. on debian system: apt-get install uuid-runtime'
+	echo '----------------------'
+	exit 1
+fi
+
+if [ ! -f "$(which zip)" ]
+then
+	echo 'zip is not installed'
+	exit 1
+fi
+
 CPKGEN_VERSION="1.0"
 
 CREATE=0
