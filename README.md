@@ -6,7 +6,7 @@
 
 ## 系统环境
 
-兼容 macOS 和 Linux
+兼容 macOS 和 Linux。
 Windows建议使用win10的Linux Subsystem进行开发。 
 
 Linux需要安装uuidgen命令与zip命令。 
