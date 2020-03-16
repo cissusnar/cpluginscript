@@ -1,0 +1,6 @@
+plugin_name = "bilibili搜索"
+plugin_bundle_id = "com.developer.DD0F9D7E"
+plugin_desc = "在哔哩哔哩搜索"
+plugin_version = "1.0"
+plugin_author = "http://clipber.com"
+cpkgen_version = "1.0"
