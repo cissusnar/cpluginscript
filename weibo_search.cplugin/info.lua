@@ -1,0 +1,6 @@
+plugin_name = "微博搜索"
+plugin_bundle_id = "com.developer.61DCB415"
+plugin_desc = "在微博搜索关键字"
+plugin_version = "1.0"
+plugin_author = "http://clipber.com"
+cpkgen_version = "1.0"
