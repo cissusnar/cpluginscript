@@ -9,17 +9,21 @@ function main(text)
 	table.remove(t, #t)
 	local head = ""
 	local body = [[
-	class <##> {
 
-		private:
 
-		public:
+class <##> {
 
-		<##>();
-		~<##>();
+	private:
 
-	};
-	]]
+	public:
+
+	<##>();
+	~<##>();
+
+};
+
+
+]]
 	local tail = ""
 	if t[1] then
 		for i,v in ipairs(t) do
