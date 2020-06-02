@@ -1,0 +1,6 @@
+plugin_name = "生成c++类实现"
+plugin_bundle_id = "com.developer.6A92F089"
+plugin_desc = "生成c++类实现"
+plugin_version = "1.0"
+plugin_author = "http://clipber.com"
+cpkgen_version = "1.0"
