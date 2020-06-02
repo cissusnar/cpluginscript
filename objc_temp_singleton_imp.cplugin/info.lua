@@ -1,0 +1,6 @@
+plugin_name = "objc单例实现"
+plugin_bundle_id = "com.clipber.singletonimp"
+plugin_desc = "objc单例的实现"
+plugin_version = "1.0"
+plugin_author = "http://clipber.com"
+cpkgen_version = "1.0"

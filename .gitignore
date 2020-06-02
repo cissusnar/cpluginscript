@@ -1,2 +1,3 @@
 *.cpk
 *~
+.DS_Store
