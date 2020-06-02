@@ -24,7 +24,7 @@ function main(text)
 	if t[1] then
 		for i,v in ipairs(t) do
 			head = head .. "namespace "	.. v .. " {\n"
-			tail = tail .. "}///" .. v .. "\n"
+			tail = "}///" .. v .. "\n" .. tail
 		end
 	end
 	local imp = head .. body .. tail
