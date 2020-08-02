@@ -1,7 +1,7 @@
 # cpluginscript
 
 
-[http://www.clipber.com/developer/](http://www.clipber.com/developer/)
+[https://clipber.com/developer/](https://clipber.com/developer/)
 
 
 ## 系统环境
