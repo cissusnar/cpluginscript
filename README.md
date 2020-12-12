@@ -1,7 +1,8 @@
 # cpluginscript
 
-
 [https://clipber.com/developer/](https://clipber.com/developer/)
+
+# 招聘(北京) Web前端、Android高级工程师, 有意向者请发邮件到cissusnar#gmail.com
 
 
 ## 系统环境
