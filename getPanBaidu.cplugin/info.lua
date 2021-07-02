@@ -1,0 +1,5 @@
+plugin_name = "获取百度网盘提取码"
+plugin_bundle_id = "com.clipber.date"
+plugin_desc = "获取百度网盘提取码"
+plugin_version = "1.0"
+plugin_author = "https://github.com/kakasearch"
