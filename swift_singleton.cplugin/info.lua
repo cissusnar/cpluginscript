@@ -1,0 +1,6 @@
+plugin_name = "swift单例"
+plugin_bundle_id = "com.clipber.9A167315"
+plugin_desc = "生成swift单例"
+plugin_version = "1.0"
+plugin_author = "https://clipber.com"
+cpkgen_version = "1.0"
