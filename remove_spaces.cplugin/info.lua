@@ -1,0 +1,6 @@
+plugin_name = "删除空格"
+plugin_bundle_id = "com.developer.96E36F0C"
+plugin_desc = "删除空格"
+plugin_version = "1.0"
+plugin_author = "http://clipber.com"
+cpkgen_version = "1.0"
