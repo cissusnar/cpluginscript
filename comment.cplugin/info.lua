@@ -1,0 +1,6 @@
+plugin_name = "注释(c++)"
+plugin_bundle_id = "com.developer.5B8FCDA7"
+plugin_desc = "注释当前内容"
+plugin_version = "1.0"
+plugin_author = "http://clipber.com"
+cpkgen_version = "1.0"
